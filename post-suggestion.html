@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indoor Jungle - The Collaborative Blog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header>
+    <nav>
+      <div class="logo"><a href="index.html">J</a></div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="post-suggestion.html">Collaborate</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <div class="colWrapper">
+      <p class="hidden">Thank you for your post. Will review it shortly! :)</p>
+      <h1>SUGGEST A POST</h1>
+      <form class="post_form">
+        <label for="post_title">Title</label>
+        <input
+          placeholder="How should the post be named?"
+          type="text"
+          name="title"
+          required
+          id="post_title"
+        />
+
+        <label for="post_username">Username</label>
+        <input
+          placeholder="What's your name?"
+          type="text"
+          name="username"
+          required
+          id="post_username"
+        />
+
+        <label for="post_content">Content</label>
+        <textarea
+          placeholder="Create your post"
+          name="content"
+          required
+          id="post_content"
+        ></textarea>
+
+        <input class="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="post-suggestion.js"></script>
+  </body>
+  <footer><p>THE COLLABORATIVE BLOG</p></footer>
+</html>

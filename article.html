@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indoor Jungle - The Collaborative Blog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><a href="index.html">J</a></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="post-suggestion.html">Collaborate</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="articleWrapper">
+      <section class="singleArticle">
+        <h4>by <span></span></h4>
+        <h1></h1>
+        <p></p>
+        <hr />
+      </section>
+
+      <section class="comments">
+        <template class="commentTemplate">
+          <li class="panel">
+            <p class="commentContent">here is a comment about the post</p>
+            <p class="commentUsername">by juli</p>
+          </li>
+        </template>
+
+        <ol class="commentList"></ol>
+        <div class="leaveComment">
+          <h2>Leave a comment</h2>
+          <form id="commentForm" class="commentForm">
+            <label for="comment_username">Username</label>
+            <input
+              placerholder="What's your name?"
+              type="text"
+              name="username"
+              required
+              id="comment_username"
+            />
+            <label for="comment_email">Email</label>
+            <input
+              placerholder="And your email?"
+              type="email"
+              name="email"
+              required
+              id="comment_email"
+            />
+            <label for="comment_content">Your comment here...</label>
+            <textarea
+              placehodler="Express yourself"
+              name="content"
+              id="comment_content"
+            ></textarea>
+            <input class="submit" type="submit" value="Post Comment" />
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="article.js"></script>
+  </body>
+  <footer><p>THE COLLABORATIVE BLOG</p></footer>
+</html>

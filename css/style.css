@@ -114,7 +114,7 @@ header nav li a {
 .articlesList {
   padding: 0 10em;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 383px));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 330px));
   gap: 2rem;
   margin: 2rem;
 }

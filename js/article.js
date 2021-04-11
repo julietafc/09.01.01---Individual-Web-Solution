@@ -24,6 +24,7 @@ function showPost(data) {
   console.log(data.comments);
   document.querySelector("h1").textContent = data.title;
   document.querySelector("h4 span").textContent = data.username;
+  document.querySelector("img.imgPost").src = data.imageUrl;
   document.querySelector("p").textContent = data.content;
 
   //data.comments would be the aray

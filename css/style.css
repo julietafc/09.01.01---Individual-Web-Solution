@@ -157,6 +157,11 @@ header nav li a {
   overflow: hidden;
 }
 
+.imgPost {
+  width: 100%;
+  height: auto;
+}
+
 /* --------- ARTICLE --------- */
 
 .articleWrapper {
